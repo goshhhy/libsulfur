@@ -1,0 +1,1 @@
+int XenonInit( char* display );
