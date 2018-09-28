@@ -1,11 +1,10 @@
-CFLAGS ?= -Wall -g
+CFLAGS ?= -Wall -s -Os
 # xcb headers
 CFLAGS != pkgconf --cflags xcb
 OUT := libsulfur
 
 OBJS := obj/conn.o
-OBJS += obj/draw.o
-OBJS += obj/color.o
+OBJS += obj/graf.o
 
 LIBS != pkgconf --libs xcb
 
