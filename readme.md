@@ -14,15 +14,3 @@ Interfaces
 ### Graf
 
 Graf is libsulfur's lower level drawing interface. It acts as a wrapper for libxcb, and can expose the xcb internals to the application if the developer desires. It provides basic drawing functionality, color support, and the ability to create windows to draw on.
-
-### Evt
-
-Evt is an event system for
-
-### Msg
-
-Msg is a messaging system built around Evt.
-
-### Conf
-
-### App
